@@ -18,7 +18,7 @@ class School
   end
 
   def sort
-    @roster.collect {|grade, student_arr| student_arr.sort}
+    @roster.collect {|student_arr| student_arr.sort}
   end
 
 end
