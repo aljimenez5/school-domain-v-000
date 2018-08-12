@@ -18,7 +18,7 @@ class School
   end
 
   def sort
-    @roster.sort_by {|v| v.last}
+    @roster.sort_by {}
   end
 
 end
