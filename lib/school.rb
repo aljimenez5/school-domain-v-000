@@ -18,7 +18,7 @@ class School
   end
 
   def sort
-    @roster.map {|grade, student_arr| grade => student_arr.sort}.to_h
+    @roster.map {|grade, student_arr| grade.values.sort}.to_h
 
   
   end
