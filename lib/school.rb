@@ -19,7 +19,7 @@ class School
 
   def sort
     @roster.sort.to_h 
-    
+    @roster.sort_by {
   end
 
 end
