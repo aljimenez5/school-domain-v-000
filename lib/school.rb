@@ -20,5 +20,4 @@ class School
   def sort
     @roster.each_value {|student_arr| student_arr.sort!}
   end
-
 end
