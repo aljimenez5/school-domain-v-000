@@ -19,7 +19,6 @@ class School
 
   def sort
     @roster.grade.student.sort
-    @roster.sort_by {|value| value}
   end
 
 end
