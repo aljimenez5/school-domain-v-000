@@ -19,7 +19,7 @@ class School
 
   def sort
     @roster.map {|grade, student_arr| grade => student_arr.sort}.to_h
-    @roster.sort_by {|grade, student_arr| student_arr}.to_h
+
   
   end
 
