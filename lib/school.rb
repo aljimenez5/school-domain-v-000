@@ -17,7 +17,7 @@ class School
     @roster[grade]
   end
 
-  def sort
+  def self.sort
     @roster.sort.to_h
     @roster.sort_by { |value| value}
   end
